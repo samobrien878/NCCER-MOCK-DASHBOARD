@@ -6,4 +6,4 @@ services:
     startCommand: gunicorn mock_dash_v2:server
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: 3.11.9
